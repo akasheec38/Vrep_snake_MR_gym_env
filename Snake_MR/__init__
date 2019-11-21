@@ -1,0 +1,6 @@
+from gym.envs.registration import register
+
+register(
+    id='SnakeMR-v0',
+    entry_point='Snake_MR.envs:snake_MR'
+)
